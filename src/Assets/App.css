@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(../Assets/img/fondo2.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+

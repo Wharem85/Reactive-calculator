@@ -1,0 +1,50 @@
+.container {
+		display: grid;
+	    grid-template-columns:  1fr 1fr;
+			grid-gap: 30px;
+}
+
+label {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.cuadros {
+	font-size: 25px;
+	padding: 10px;
+	margin: 25px;
+	width: 800px;
+	height: 100px;
+	display: grid;
+	    grid-template-columns:  1fr 1fr;
+}
+
+input {
+	background: black;
+  border: 1px solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-size: 28px;
+  padding: 5px;
+	text-decoration: solid;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type=number] { -moz-appearance:textfield; }
+
+.titul {
+	justify-content: right;
+	display: block;
+	text-align: right;
+	font-size: 40px;
+	color: white;
+	width:1325px;
+}
+
+
+
